@@ -1,0 +1,46 @@
+
+
+/* ----- CUSTOM -----  */
+
+header {
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	background: #f3f3f2;
+	height: 120px;
+}
+
+header ul#menu-1 {
+	float: left;
+}
+
+header ul#menu-2 {
+	float: right;
+}
+
+header ul#menu-1, header ul#menu-2{
+	padding: 20px;
+}
+
+header ul#menu-1 li, header ul#menu-2 li{
+	display: inline-block;
+	padding: 10px;
+}
+
+header ul#menu-1 li.separador, header ul#menu-2 li.separador{
+	padding: 2px;
+}
+
+header ul#menu-1 a, header ul#menu-2 a{
+	color: #43525A;
+}
+
+header #logo-header {
+	width: 100px;
+	height: auto;
+}
+
+.section-1 {
+	background-image: url('Programa2/src/img/fondo1.jpg');
+}
